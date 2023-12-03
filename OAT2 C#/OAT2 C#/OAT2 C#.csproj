@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{65810466-8F9E-4171-BDD8-619979C6D6BD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>OAT2_C_</RootNamespace>
+    <AssemblyName>OAT2 C#</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="atividade01.cs" />
+    <Compile Include="atividade02.cs" />
+    <Compile Include="atividade03.cs" />
+    <Compile Include="atividade04.cs" />
+    <Compile Include="atividade05.cs" />
+    <Compile Include="atividade06.cs" />
+    <Compile Include="atividade07.cs" />
+    <Compile Include="atividade08.cs" />
+    <Compile Include="atividade09.cs" />
+    <Compile Include="atividade10.cs" />
+    <Compile Include="atividade11.cs" />
+    <Compile Include="atividade12.cs" />
+    <Compile Include="atividade13.cs" />
+    <Compile Include="atividade14.cs" />
+    <Compile Include="atividade15.cs" />
+    <Compile Include="atividade16.cs" />
+    <Compile Include="atividade17.cs" />
+    <Compile Include="atividade18.cs" />
+    <Compile Include="atividade19.cs" />
+    <Compile Include="atividade20.cs" />
+    <Compile Include="atividade21.cs" />
+    <Compile Include="atividade22.cs" />
+    <Compile Include="atividade23.cs" />
+    <Compile Include="atividade24.cs" />
+    <Compile Include="atividade25.cs" />
+    <Compile Include="atividade26.cs" />
+    <Compile Include="atividade27.cs" />
+    <Compile Include="atividade28.cs" />
+    <Compile Include="atividade29.cs" />
+    <Compile Include="atividade30.cs" />
+    <Compile Include="atividade31.cs" />
+    <Compile Include="atividade32.cs" />
+    <Compile Include="atividade33.cs" />
+    <Compile Include="atividade34.cs" />
+    <Compile Include="atividade35.cs" />
+    <Compile Include="atividade36.cs" />
+    <Compile Include="atividade37.cs" />
+    <Compile Include="atividade38.cs" />
+    <Compile Include="atividade39.cs" />
+    <Compile Include="atividade40.cs" />
+    <Compile Include="atividade41.cs" />
+    <Compile Include="atividade42.cs" />
+    <Compile Include="atividade43.cs" />
+    <Compile Include="atividade44.cs" />
+    <Compile Include="atividade45.cs" />
+    <Compile Include="atividade46.cs" />
+    <Compile Include="atividade47.cs" />
+    <Compile Include="atividade48.cs" />
+    <Compile Include="atividade49.cs" />
+    <Compile Include="atividade50.cs" />
+    <Compile Include="atividade51.cs" />
+    <Compile Include="atividade52.cs" />
+    <Compile Include="atividade53.cs" />
+    <Compile Include="atividade54.cs" />
+    <Compile Include="atividade55.cs" />
+    <Compile Include="atividade56.cs" />
+    <Compile Include="atividade57.cs" />
+    <Compile Include="atividade58.cs" />
+    <Compile Include="atividade59.cs" />
+    <Compile Include="atividade60.cs" />
+    <Compile Include="atividade61.cs" />
+    <Compile Include="atividade62.cs" />
+    <Compile Include="atividade63.cs" />
+    <Compile Include="atividade64.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
